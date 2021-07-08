@@ -231,7 +231,7 @@ body.active .nav {
   border: none;
 }
 
-.footer-content__copyright{
+.footer-content__copyright {
   font-size: 1.5rem;
   text-align: center;
   background: var(--secondary-color);
@@ -313,7 +313,7 @@ body.active .nav {
   .about-content__heading {
     font-size: 3rem;
   }
-  
+ 
   .about-content__text {
     font-size: 1.5rem;
   }

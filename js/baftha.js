@@ -7,5 +7,5 @@ menu.addEventListener('click', () => {
 });
 
 close.addEventListener('click', () => {
-    body.classList.remove('active');
+  body.classList.remove('active');
 });
