@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/baftha.css">
     <title>Baftha - Engineering solutions</title>
 </head>
 <body>
     <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo" />
+            </div>
+            <div class="open-close">
+                <i class='bx bx-menu menu'></i>
+            </div>
+        </div>
         <nav class="nav">
             <div class="logo">
                 <img src="assets/logo.png" alt="logo" />
+            </div>
+            <div class="open-close">
+                <i class='bx bx-x close'></i>
             </div>
             <ul class="nav-list">
                 <li class="nav-item">
@@ -29,8 +41,81 @@
             </ul>
         </nav>
         <div class="hero">
-
+            <div class="hero-content">
+                <div class="hero-content__banner">
+                    <div class="hero-content__banner-text">
+                        <h1>
+                            Welcome to <br>Baftha
+                        </h1>
+                        <p>
+                            Let's chat
+                        </p>
+                    </div>
+                    <div class="hero-content__banner-slides">
+                        <div class="hero-content__banner-slider__slide">
+                            <img src="assets/systems.jpg" alt="systems" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    <section>
+        <div class="about">
+            <div class="about-content">
+                <h1 class="about-content__heading">About</h1>
+                <p class="about-content__text">
+                    BAFTHA, is a Nigeria based technology & consulting 
+                    company which is a number one source for all innovative 
+                    solutions & specializes in general purpose work. 
+                    We're dedicated to providing you the very best of 
+                    professional solutions, with an emphasis on the Engineering (Architect, Electrical, Systems, Civil & Mechanical), IT, EIA/EA, HVAC, Haulage & Logistics, Import & Export, Oil & Gas, Remote sensing 
+                    & Geographic Information systems, Surveying industry etc.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-content__info">
+                    <div class="footer-content__info-contact">
+                        <h1>Contact</h1>
+                        <ul class="address-list">
+                            <li>Bafta</li>
+                            <li>16 Odutola street</li>
+                            <li>Oko-oba Agege, Lagos</li>
+                        </ul>
+                        <ul class="other-address-list">
+                            <li>08028603445</li>
+                            <li>lurdmeshal@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer-content__info-contact-form">
+                        <h6>Message us</h6>
+                        <div class="message-us-form">
+                            <form action="#" method="POST">
+                                <div class="name-email">
+                                    <div class="field">
+                                        <input type="text" name="fullname" id="fulname" class="input" placeholder="Fullname">
+                                    </div>
+                                    <div class="field">
+                                        <input type="email" name="Email" id="email" class="input" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <textarea name="message" id="message" class="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content__copyright">
+                <p>Copyright &copy; All rights reserved 2021</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/baftha.js"></script>
 </body>
 </html>
